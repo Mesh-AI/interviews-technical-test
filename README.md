@@ -2,11 +2,9 @@
 
 The objective of this challenge is to gain insights on problem-solving approaches to software development tasks. Therefore, although completing the task is desirable, it is equaly important *how* you go about it.
 
-## Problem statement
+## The ask
 
 A client receives sales data in a text file (CSV format). Each row in this file contains transaction_id, product_name, quantity, and unit_price.
-
-## The ask
 
 The client wants to keep this information in a more accessible storage solution (e.g. a database). Also, they would like to see a daily revenue report with the top 2 products that looks like this:
 
@@ -18,7 +16,7 @@ Top 2 Products by Revenue:
 
 > **Hint**: revenue = quantity * price
 
-## Solution
+## Solution considerations
 
 You are provided with all the scaffolding necessary to solve this task:
 * sample data in the *resources/* folder
